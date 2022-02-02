@@ -1,0 +1,25 @@
+body{
+    background-image: url(https://cdn.memegenerator.es/imagenes/memes/full/31/23/31238695.jpg);
+    background-color: #ccc;
+    background-repeat: no-repeat;
+    
+}
+
+.circuloContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.circulo{
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    background-color: green;
+}
+
+
+
+.circulo:hover{
+    cursor: pointer;
+    opacity: 0;
+}
