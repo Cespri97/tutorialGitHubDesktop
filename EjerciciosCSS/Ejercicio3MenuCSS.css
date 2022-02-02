@@ -1,0 +1,16 @@
+#container{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    background-color: rgb(1, 156, 1);
+    border-style: solid;
+    color: white;
+    padding: 24px;
+    font-size: 24px;
+    
+}
+li:hover{
+    background-color: pink;
+    cursor: pointer;
+}
